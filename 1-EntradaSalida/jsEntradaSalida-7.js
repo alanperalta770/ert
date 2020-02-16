@@ -37,6 +37,12 @@ function multiplicar()
 
 function dividir()
 {
-	
+var rer
+var rar
+var ror
+var rer=document.getElementById("numeroUno").value;
+var rar=document.getElementById("numeroDos").value;
+var ror=parseInt(rer) / parseInt(rar);
+alert("su resultado es" + ror);	
 }
 

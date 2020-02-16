@@ -4,6 +4,9 @@ function mostrar()
 var dato
 dato=document.getElementById("edad").value;
 if(dato>=18){alert("mayor");}
-else(dato<18){alert("menor");}
+else if(dato>=13&&dato<=17){alert("adolecente");}
+else if (dato) {alert("niño");
+    
+}
 
 }//FIN DE LA FUNCIÓN

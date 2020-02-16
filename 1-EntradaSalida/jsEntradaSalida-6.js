@@ -8,5 +8,5 @@ function sumar()
     numeros=document.getElementById("numeroDos").value;
     var resulto
     resulto=parseInt(numero)+parseInt(numeros);
-    alert("tun resultado es "+resulto);
+    alert("tu resultado es "+resulto);
 }

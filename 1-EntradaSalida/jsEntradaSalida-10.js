@@ -4,5 +4,9 @@ mostrar el importe con un Descuento del 25 %
 en el cuadro de texto "RESULTADO"*/
 function mostrarAumento()
 {
-	
+var uno
+var tres
+uno=document.getElementById("importe").value;
+tres=(parseInt(uno)*-25/100)+ parseInt(uno);
+document.getElementById("resultado").value=tres;	
 }

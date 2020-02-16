@@ -6,7 +6,7 @@ function mostrar()
 {
 var gg
  gg= prompt("nombre","ingrese su nombre");
- document.getElementById("elNombre").value= nombre;
+ document.getElementById("elNombre").value= gg;
 
 }
 
